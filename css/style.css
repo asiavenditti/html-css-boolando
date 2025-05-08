@@ -181,6 +181,26 @@ img {
 }
 
 
+
+.img-box {
+    position: relative;
+}
+
+.secondary-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0%;
+    transition: 0.3s;
+
+}
+
+.img-box:hover .secondary-img {
+    opacity: 1;
+}
+
+
 /* Footer */
 
 footer {
