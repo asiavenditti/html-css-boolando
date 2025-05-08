@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px dashed red; */
 
 }
 
@@ -97,9 +98,8 @@ img {
 
 
 
-
-
 .row {
+
     flex-wrap: wrap;
     margin: 1rem -1rem;
 
@@ -113,6 +113,72 @@ img {
 .card {
     position: relative;
     top: 0;
-    right: 1rem;
+
 
 }
+
+
+.red {
+    color: red;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.deleted {
+    text-decoration: line-through;
+    font-size: 0.8rem;
+
+}
+
+.discount {
+
+    background-color: red;
+    padding: 5px 6px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.sostenibility {
+    background-color: #008000;
+    text-align: center;
+    padding: 5px 6px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 42px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+#sostenibility-left {
+    background-color: #008000;
+    text-align: center;
+    padding: 5px 6px;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+
+.heart {
+
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding: 15px 10px;
+}
+
+
+/* Footer */
